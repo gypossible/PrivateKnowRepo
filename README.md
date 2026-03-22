@@ -1,3 +1,14 @@
+---
+title: PrivateKnowRepo
+emoji: 📚
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: 4.40.0
+app_file: app.py
+pinned: false
+---
+
 # PrivateKnowRepo — NotebookLM-Style Research Agent
 
 A NotebookLM-inspired AI agent that lets you upload documents or search the web, then ask precise questions and generate Mermaid diagrams from your knowledge base.
@@ -6,37 +17,9 @@ A NotebookLM-inspired AI agent that lets you upload documents or search the web,
 
 - 📄 **File Upload** — PDF, TXT, DOCX, MD
 - 🌐 **Web Search** — Tavily-powered real-time search, auto-indexed
-- 🤖 **RAG Q&A** — Precise answers with source citations
+- �� **RAG Q&A** — Precise answers with source citations
 - 🗺️ **Mermaid Diagrams** — Auto-generate flowcharts, mindmaps, sequence diagrams
 - 💬 **Gradio Web UI** — Clean browser interface
-
-## Setup
-
-### 1. Clone & install
-```bash
-git clone https://github.com/gypossible/PrivateKnowRepo.git
-cd PrivateKnowRepo
-pip install -r requirements.txt
-```
-
-### 2. Configure API Keys
-Create a `.env` file:
-```
-GOOGLE_API_KEY=your_google_api_key
-TAVILY_API_KEY=your_tavily_api_key
-```
-
-### 3. Run
-```bash
-python main.py
-```
-Open http://localhost:7860
-
-## Usage
-
-1. **Upload Documents** tab → upload PDF/TXT/DOCX/MD files
-2. **Add Web Sources** tab → enter a topic to search and index
-3. **Chat** tab → ask questions or say "画一个流程图" to get a Mermaid diagram
 
 ## Tech Stack
 
